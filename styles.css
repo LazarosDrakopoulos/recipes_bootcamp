@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+.logo {
+  width: 400px;
+}
+
+.header {
+  background-color: #FFFAF4;
+}
+
+.link-label {
+  color: #545454 !important;
+  font-size: 25px;
+  font-family: 'Advent Pro', sans-serif;  color: white;
+}
+
+h1 { 
+  color: #545454 !important;
+  font-size: 50px;
+  font-family: 'Advent Pro', sans-serif;  color: white;
+  margin-top: 8px;
+  padding-left: 5%;
+  float: left;
+}
+
+.menu-small {
+  background-color: #FFFAF4;
+}
+
+.card-img {
+  opacity: 0.2;
+  height: 850px;
+}
+
+.menu {
+  margin: 40px 40%;
+  float: right;
+  padding-right: 5%;
+  background-color: #FFFAF4;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.quote {
+  font-size: 80px;
+  font-family: 'Advent Pro', sans-serif;  
+  color: white;
+  text-shadow: 5px 5px 5px #545454;
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 300px;
+}
+
+.footer {
+  background-color:#545454;
+  padding-left: 5%;
+}
+
+.title {
+  color: white;
+  font-family: 'Advent Pro', sans-serif;  
+  font-size: 40px;
+  padding-left: 15px;
+}
+
+.sintagoulis {
+  color: rgb(255, 255, 255);
+  font-family: 'Advent Pro', sans-serif;  
+  font-size: 40px;
+  padding-left: 15px;
+}
+
+.sintagoulis:hover {
+  color:rgb(173, 238, 246);
+  text-shadow: 2px 2px 5px white;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  position: absolute;
+  left: -17px !important;
+}
+
+@media only screen and (min-width: 1500px) {
+  .menu {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 1501px) {
+  .menu {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  body {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .logo {
+    width: 250px;
+  }
+}

@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  height: 100%;
+  background-color: rgb(33,37,41);
+}
+
+.logo {
+  height: 300px;
+}
+
+.header {
+  background-color: #FFFAF4;
+}
+
+.link-label {
+  color: #545454 !important;
+  font-size: 25px;
+  font-family: 'Advent Pro', sans-serif;  color: white;
+}
+
+h1 { 
+  color: #545454 !important;
+  font-size: 50px;
+  font-family: 'Advent Pro', sans-serif;  color: white;
+  margin-top: 8px;
+  padding-left: 5%;
+  float: left;
+}
+
+.menu-small {
+  background-color: #FFFAF4;
+}
+
+.menu {
+  margin: 40px 40%;
+  float: right;
+  padding-right: 5%;
+  background-color: #FFFAF4;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.main-part {
+  color:#545454;;
+  text-align: start;
+  padding: 5%;
+  font-size: 30px;
+}
+
+.card {
+  border: none;
+}
+
+.card-body {
+  background-color: transparent !important;
+  color: rgb(214, 213, 213);
+}
+
+.footer {
+  background-color:#545454;
+  padding-left: 5%;
+}
+
+.title {
+  color: white;
+  font-family: 'Advent Pro', sans-serif;  
+  font-size: 40px;
+  padding-left: 15px;
+}
+
+.sintagoulis {
+  color: rgb(255, 255, 255);
+  font-family: 'Advent Pro', sans-serif;  
+  font-size: 40px;
+  padding-left: 15px;
+}
+
+.sintagoulis:hover {
+  color:rgb(173, 238, 246);
+  text-shadow: 2px 2px 5px white;
+}
+
+.recipe-title {
+  font-family: 'Advent Pro', sans-serif;  
+  font-size: 40px;
+}
+
+#image {
+  height: 600px !important;
+}
+
+.card-title {
+  text-shadow: 2px 1px 1px #0a0a0a;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 45px !important;
+}
+
+.card-text {
+  font-size: 25px;
+}
+
+.different-font {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 30px;
+}
+
+
+.card-lines {
+  line-height: 100% !important;
+  font-family: var(--bs-body-font-family);
+  font-size: 25px;
+  padding-left: 0;
+}
+  
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  position: absolute;
+  left: -17px !important;
+}
+
+@media only screen and (min-width: 1500px) {
+  .menu {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 1501px) {
+  .menu {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  body {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  .quote {
+    font-size: 30px;
+    padding-top: 2%
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .card {
+    height: 130vh !important;
+  }
+}
+
+
+@media only screen and (max-width: 420px){
+  .card {
+    height: 180vh !important;
+  }
+}
+  
